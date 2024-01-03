@@ -1,0 +1,64 @@
+.registerParent{
+    margin-top: 3%;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.registerinner{
+    /* border:2px solid black; */
+    display: flex;
+    width:24vw;
+    flex-direction: column;
+    text-align: left;
+
+}
+.text2,.text{
+    width:100%;
+    /* background-color: rgb(112, 43, 197); */
+    font-size: 16px;
+    color:white;
+    height: 8vh;
+    color:black;
+    font-weight: bold;
+    
+}
+.forget,.nextpage{
+    color: rgb(112, 43, 197);
+}
+.Submitbutton{
+    width:100%;
+    background-color: rgb(112, 43, 197);
+    font-size: 20px;
+    color:white;
+    height: 6vh;
+    
+}
+.headingsignup{
+    font-size: 20px;
+}
+
+@media screen  and (min-width:300px) and (max-width:667px) {
+    .registerinner{
+        width:80vw;
+    }
+    .headingsignup{
+        font-size: 30px;
+    }
+}
+
+@media screen  and (min-width:668px) and (max-width:1180px) {
+    .registerinner{
+        width:80vw;
+    }
+    .text2,.text{
+        font-size: 20px;
+        color:white;
+        /* height: 6vh; */
+        border:2px solid black;
+    }
+    .or{
+        font-size: 20px;
+    }
+}

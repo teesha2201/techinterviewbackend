@@ -1,0 +1,19 @@
+.navContainer{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 6vh;
+    background-color:blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+.logout{
+    height: 6vh;
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border: 2px solid blueviolet;
+    
+}

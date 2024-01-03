@@ -1,0 +1,59 @@
+.loginParent{
+    margin-top: 3%;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logininner{
+    /* border:2px solid black; */
+    display: flex;
+    width:24vw;
+    flex-direction: column;
+    text-align: left;
+
+}
+.text1,.text{
+    width:100%;
+    /* background-color: rgb(112, 43, 197); */
+    font-size: 16px;
+    color:white;
+    height: 6vh;
+    color:black;
+    font-weight: bold;
+    
+}
+.forget,.nextpage{
+    color: rgb(112, 43, 197);
+}
+.Submitbutton{
+    width:100%;
+    background-color: rgb(112, 43, 197);
+    font-size: 20px;
+    color:white;
+    height: 6vh;
+    
+}
+@media screen and (min-width:300px) and (max-width:667px){
+    .logininner{
+        width: 80vw;
+    }
+    .text1,.text{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:668px) and (max-width:1180px){
+    .logininner{
+        width:50vw;
+    }
+    .logininner h3{
+        font-size: 30px;
+     }
+    .text1,.text{
+        font-size: 20px;
+    }
+    .dont{
+        font-size: 20px;
+    }
+}
