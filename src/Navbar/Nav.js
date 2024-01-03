@@ -16,7 +16,6 @@ const  Nav=()=> {
     const logout = ()=>{
       console.log("Logout")
       localStorage.clear(auth);
-    
       navi('/register');
     }
   
